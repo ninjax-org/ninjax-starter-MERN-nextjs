@@ -31,6 +31,14 @@ Click on the 'About' link in the top navbar. Notice the url change to a clean '/
 
 Now go ahead and click on the `/Profile` page and observe the url. It includes custom query params in the url. Here is more on the [Link component and routing](https://nextjs.org/docs#with-link) in Next.js.
 
+7. LESS Styling: 
+On our /About Page you can see that the header is a yellow color that really doesn't fit our theme. Down at the bottom of our `pages/about` page you will see the styling for our h2 tag. Go ahead and change that to 'magenta' which will follow our theme much better. You can notice that the h3 style is nested under the `.container` class, which is possible becauese our starter has less integration. 
+
+Notice in our `<style>` tag we have two attributes: the `scoped` and the `style=less`. The `scoped` indicates that the styling only applies to this page, and the `style-less` allows us to use normal less styles as we would normally. 
+To add global styles you need to use the 
+
+8. Custom App Theme with Material UI
+
 # Boosters
 
 - Official Approved Boosters
