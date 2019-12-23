@@ -12,4 +12,17 @@ This starter includes the following:
 - Essential email/password authentication
 - Testing setup with continuous integration
 - 1 Script deployment onto Zeit Now
-- 
+- Auto deployment onto dev and staging environment
+- Material UI theme
+
+# Demo Walkthrough
+
+
+
+
+# Boosters
+
+- Official Approved Boosters
+- All Boosters
+
+Boosters are add-ons to your starter packs. The code fully injects directly into  your codebase so you can both better understand it, and fully customize. You can add them with 'ninja add-booster [name of booster]` To read more about boosters, head over to our documentation on boosters in our main NinjaX repo. 
