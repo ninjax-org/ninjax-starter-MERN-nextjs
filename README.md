@@ -17,6 +17,12 @@ This starter includes the following:
 
 # Demo Walkthrough
 
+### Configuration
+1. Install NinjaX cli with `npm i -g ninjaxcli` 
+2. Run in your terminal: `ninja install starter MERN-nextjs`
+3. `cd ninjax-starter-mern-nextjs`
+4. `npm install && npm run`
+5. Navigate to `http://localhost:3000/` to observe your NinjaX homescreen
 
 
 
