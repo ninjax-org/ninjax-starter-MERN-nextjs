@@ -24,7 +24,12 @@ This starter includes the following:
 4. `npm install && npm run`
 5. Navigate to `http://localhost:3000/` to observe your NinjaX homescreen
 
+### Demo
 
+6. Routing: 
+Click on the 'About' link in the top navbar. Notice the url change to a clean '/about' route as it navigates you to the about page. This was done through the "Link" component which was imported in the `components/NavBar.js` file. In order to add a new route, you simply add a new file to the `pages` directory, and it will automatically generate the route with that filename. Currently our starter comes with three routes: `/`, `/About`, `/Profile`, and also `*` which it uses as a fallback and displays a 404 page. This directory must be named `pages`. The only other protected directory name is `public` which we will cover later. 
+
+Now go ahead and click on the `/Profile` page and observe the url. It includes custom query params in the url. Here is more on the [Link component and routing](https://nextjs.org/docs#with-link) in Next.js.
 
 # Boosters
 
